@@ -1,0 +1,66 @@
+1. Why we use margin and padding = 0 at the begining?
+Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
+
+2. What is vh?
+Ans: vh. Represents a percentage of the height of the viewport's initial containing block. 1vh is 1% of the viewport height.
+
+3. background: linear-gradient(135deg, #153677, #4e085f); -- understand
+
+4. GO ON MORE DEPTH ABOUT MARGIN AND PADDING LIKE
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+WHAT DOES auto mean here?
+
+5. STUDY MORE ABOUT
+   DISPLAY
+   ALIGN-ITEMS
+   JUSTIFY-CONTENT
+
+
+6. What does flex: 1; mean? *****
+Ans: If an element has flex: 1, it signifies that the width of all other elements will be the same as their content, but the element with flex: 1 will be given the remaining full space.
+
+
+7. What does outline property do?
+Ans: An outline is a line that is drawn around elements, outside the borders, to make the element "stand out".
+
+
+8. What does user-select property do ?
+Ans: The user-select property specifies whether the text of an element can be selected.
+
+
+9. What does ::before do?
+Ans: The ::before selector inserts something before the content of each selected element(s). Use the content property to specify the content to insert.
+
+
+10. document.createElement is used for?
+Ans: document.createElement() method creates the HTML element specified by tagName, or an HTMLUnknownElement if tagName isn't recognized.
+
+11. What does appendChild() mean?
+Ans: The appendChild() method of the Node interface adds a node to the end of the list of children of a specified parent node. Note: If the given child is a reference to an existing node in the document, appendChild() moves it from its current position to the new position.
+
+
+12. What is the use of .value?
+Ans: It returns the value entered into an HTML input element, such as a text box. For example, if you have an input field with an id of userInput , you can use . value in JavaScript to retrieve the value the user entered into the field.
+
+
+13. What does target do?
+Ans: target is a property of an event object that refers to the element that triggered the event. This can be useful for identifying which element an event originated from, which is often necessary when working with event listeners.
+
+
+14. What does classList do?
+Ans: The classList JavaScript is a read-only property that is used to return CSS classes in the form of an array. The classList JavaScript allows us to add, remove, replace, toggle or check whether the specified CSS class is present or not.
+
+
+
+15. What does parentElement do in JavaScript?
+Description. The parentElement property returns the parent element of the specified element. In most cases, it does not matter which property you use, however, parentNode is probably the most popular. This property is read-only.
+
+
+16.  localStorage.setItem used for?
+
+Ans: The setItem() method is used to set the storage object item which is specified by the user. This storage object can be a localStorage object or sessionStorage object. Keyname: It specifies the name of the key used for getting the value. value: It specifies the value which replaces the old value.
+
+
+17. localStorage.getItem used for?
+Ans: The getItem() method returns value of the specified Storage Object item. The getItem() method belongs to the Storage Object, which can be either a localStorage object or a sessionStorage object
